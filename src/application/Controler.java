@@ -74,10 +74,8 @@ public class Controler {
 			if( ( redRation <= MAX_COLOR * realPersent ) &&
 				( greenRation <= MAX_COLOR * realPersent )  &&
 				( blueRation <= MAX_COLOR * realPersent ) ){
-				//System.out.println("TRUE");
 				return ratio;
 			}
-			//System.out.println("FALSE");
 			return -1;
 		}
 		
@@ -308,10 +306,7 @@ public class Controler {
 			return;
 			
 		}
-		/*
-		public void loadIconInfo(){
 
-		}*/
 	}
 	public class ImageBuilderThread extends Thread{
 		public ImageBuilderThread(){
@@ -515,11 +510,8 @@ public class Controler {
 
 			IconLoaderThread ILThread = new IconLoaderThread( packMenuButton.getText(), true );
 			ILThread.start();
-			//reCalcInput(srcPath);
-
 		});
 		
-
 		iconSizeInput.setOnKeyReleased((event) -> {
 			reCalcInput(srcPath);
 		});
@@ -529,7 +521,6 @@ public class Controler {
 		
 		choseButton.setOnAction((event) -> {
 
-			
 			FileChooser fileChooser = new FileChooser();
 			fileChooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("IMG", "*.png", "*.jpg", "*.gif"));
 			//fileChooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("JPG", "*.jpg"));
@@ -540,21 +531,14 @@ public class Controler {
 				choserText.setText("Картинка не выбрана :(");
 			}
 			
-			
-			
 			iconSizeInput.setDisable(false);
 			jumpSizeInput.setDisable(false);
 			
 			reCalcInput(srcPath);
-			// (srcImage.getWidth()*eIconSize/eJumpSize)+" x "+(srcImage.getHeight()*eIconSize/eJumpSize)
-			
-			
+
 		});
 		
-		
-		
 
-		
 		buildButton.setOnAction((event) -> {
 			partSize = Integer.parseInt(iconSizeInput.getText());
 			jump = Integer.parseInt(jumpSizeInput.getText());

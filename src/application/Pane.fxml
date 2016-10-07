@@ -8,29 +8,29 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.text.Text?>
 
-<BorderPane fx:id="myBorderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="280.0" prefWidth="420.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controler">
+<BorderPane fx:id="myBorderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.0" prefWidth="394.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controler">
    <center>
-      <AnchorPane fx:id="myAnchorPane" accessibleText="Обновить" prefHeight="79.0" prefWidth="420.0" BorderPane.alignment="CENTER">
+      <AnchorPane fx:id="myAnchorPane" accessibleText="Обновить" prefHeight="241.0" prefWidth="419.0" BorderPane.alignment="CENTER">
          <children>
-            <Button fx:id="buildButton" layoutX="14.0" layoutY="241.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="120.0" text="Иконизировать" />
-            <Text fx:id="statusText" layoutX="149.0" layoutY="258.0" stroke="#00ff1100" strokeType="OUTSIDE" strokeWidth="0.0" text="..." textAlignment="CENTER" wrappingWidth="263.13671875">
+            <Button fx:id="buildButton" layoutX="14.0" layoutY="208.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="120.0" text="Иконизировать" />
+            <Text fx:id="statusText" layoutX="146.0" layoutY="223.0" stroke="#00ff1100" strokeType="OUTSIDE" strokeWidth="0.0" text="..." textAlignment="CENTER" wrappingWidth="263.13671875">
                <effect>
                   <Glow level="0.0" />
                </effect>
             </Text>
-            <Button fx:id="choseButton" layoutX="14.0" layoutY="15.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="120.0" text="Выбрать картинку" />
+            <Button fx:id="choseButton" layoutX="17.0" layoutY="17.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="120.0" text="Выбрать картинку" />
             <Text fx:id="choserText" layoutX="14.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Картинки нет :(" textAlignment="CENTER" wrappingWidth="392.13671875" />
-            <TextField fx:id="jumpSizeInput" layoutX="110.0" layoutY="140.0" prefHeight="25.0" prefWidth="39.0" text="5" />
-            <Text layoutX="15.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Брать каждый" wrappingWidth="95.13671875" />
-            <Text layoutX="157.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="пиксель." wrappingWidth="95.13671875" />
-            <Text layoutX="15.0" layoutY="186.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Размер иконок" wrappingWidth="95.13671875" />
-            <TextField fx:id="iconSizeInput" layoutX="110.0" layoutY="169.0" prefHeight="25.0" prefWidth="39.0" text="32" />
+            <TextField fx:id="jumpSizeInput" layoutX="110.0" layoutY="107.0" prefHeight="25.0" prefWidth="39.0" text="5" />
+            <Text layoutX="15.0" layoutY="124.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Брать каждый" wrappingWidth="95.13671875" />
+            <Text layoutX="157.0" layoutY="124.0" strokeType="OUTSIDE" strokeWidth="0.0" text="пиксель." wrappingWidth="95.13671875" />
+            <Text layoutX="15.0" layoutY="153.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Размер иконок" wrappingWidth="95.13671875" />
+            <TextField fx:id="iconSizeInput" layoutX="110.0" layoutY="136.0" prefHeight="25.0" prefWidth="39.0" text="32" />
             <Text fx:id="outImgSizeText" layoutX="114.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="86.13671875" />
-            <Text layoutX="15.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" text="На выходе" wrappingWidth="76.13671875" />
-            <Text fx:id="iconSizeText" layoutX="157.0" layoutY="186.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="86.13671875" />
-            <MenuButton fx:id="packMenuButton" layoutX="252.0" layoutY="15.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="102.0" text="Не выбраны" />
-            <Text layoutX="200.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Иконки" />
-            <Button fx:id="reCompileIconDataButton" accessibleText="Обновить" defaultButton="true" ellipsisString="" layoutX="362.0" layoutY="15.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" text="R" textAlignment="CENTER" textFill="#416b3c" />
+            <Text layoutX="15.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" text="На выходе" wrappingWidth="76.13671875" />
+            <Text fx:id="iconSizeText" layoutX="157.0" layoutY="153.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="86.13671875" />
+            <MenuButton fx:id="packMenuButton" layoutX="262.0" layoutY="17.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="102.0" text="Не выбраны" />
+            <Text layoutX="210.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Иконки" />
+            <Button fx:id="reCompileIconDataButton" accessibleText="Обновить" defaultButton="true" ellipsisString="" layoutX="372.0" layoutY="17.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" text="R" textAlignment="CENTER" textFill="#416b3c" />
          </children>
       </AnchorPane>
    </center>

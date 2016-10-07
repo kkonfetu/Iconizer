@@ -31,7 +31,7 @@ public class Main extends Application {
 			FXMLLoader loader = new FXMLLoader();
             loader.setLocation(Main.class.getResource("Pane.fxml"));
             root = (BorderPane) loader.load();
-	        primaryStage.setTitle("ImageBuilder");
+	        primaryStage.setTitle("»конизатор [1.1]");
 	        Scene scene = new Scene(root);
 	        primaryStage.setScene(scene);
 			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
@@ -47,22 +47,6 @@ public class Main extends Application {
 		           System.exit(0);
 		        }
 		     });
-			/*primaryStage.setOnHiding(new EventHandler<WindowEvent>() {
-
-
-	            @Override
-	            public void handle(WindowEvent event) {
-	                Platform.runLater(new Runnable() {
-
-	                    @Override
-	                    public void run() {
-	                        System.out.println("Application Closed by click to Close Button(X)");
-	                        System.exit(0);
-	                    }
-	                });
-	            }
-
-	        });*/
 			
 		} catch(Exception e) {
 			e.printStackTrace();

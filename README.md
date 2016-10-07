@@ -4,4 +4,6 @@
 # Распаковал и пользуйся!
 Ссылки будут
 # Установка паков
-Ссылки будут
+World of Warcraft http://www.mediafire.com/file/c5gi3hvybd71n7v/wow.rar
+Warcraft 3 http://www.mediafire.com/file/9amzfnew5fzo1jx/wc3.rar
+Lineage 2 http://www.mediafire.com/file/a7w6ob94ff1kjb2/l2.rar

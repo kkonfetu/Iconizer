@@ -460,7 +460,7 @@ public class Controler {
 			int eIconSize = Integer.parseInt(iconSizeInput.getText());
 			int eJumpSize = Integer.parseInt(jumpSizeInput.getText());
 			
-			newName = newName+"_icon"+eIconSize+"x"+eIconSize+"_jump"+eJumpSize+"_"+packName;
+			newName = newName+"_icon"+eIconSize+"x"+eIconSize+"_jump"+eJumpSize;
 			iconSizeText.setText(eIconSize+" x "+eIconSize);
 			outImgSizeText.setText( (srcImage.getWidth()*eIconSize/eJumpSize)+" x "+(srcImage.getHeight()*eIconSize/eJumpSize) );
 			

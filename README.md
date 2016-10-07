@@ -1,8 +1,8 @@
 # Iconizer
 Первое упоминание можно найти здесь http://pikabu.ru/story/ikonizator_4517329
 
-# Распаковал и пользуйся!
-Ссылки будут
+# Скачай, распакуй и пользуйся!
+[Иконизатор версии 1.1](http://www.mediafire.com/file/l04mcf8tgcef2d7/Iconizer1_1.rar)
 # Установка паков
 <dt>[World of Warcraft](http://www.mediafire.com/file/c5gi3hvybd71n7v/wow.rar)</dt>
 <dt>[Warcraft 3 ](http://www.mediafire.com/file/9amzfnew5fzo1jx/wc3.rar)</dt>

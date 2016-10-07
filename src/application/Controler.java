@@ -295,7 +295,6 @@ public class Controler {
 				generateXML();
 				
 			}
-			
 
 			statusText.setText("Подгрузка иконок завершена! Иконок: "+iconList.length);
 			
@@ -464,7 +463,10 @@ public class Controler {
 			newName = newName+"_icon"+eIconSize+"x"+eIconSize+"_jump"+eJumpSize+"_"+packName;
 			iconSizeText.setText(eIconSize+" x "+eIconSize);
 			outImgSizeText.setText( (srcImage.getWidth()*eIconSize/eJumpSize)+" x "+(srcImage.getHeight()*eIconSize/eJumpSize) );
-			buildButton.setDisable(false);
+			
+			if(packName.length() > 0)
+				buildButton.setDisable(false);
+			
 		}else{
 			buildButton.setDisable(true);
 		}

@@ -25,7 +25,7 @@
             <Text layoutX="157.0" layoutY="124.0" strokeType="OUTSIDE" strokeWidth="0.0" text="пиксель." wrappingWidth="95.13671875" />
             <Text layoutX="15.0" layoutY="153.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Размер иконок" wrappingWidth="95.13671875" />
             <TextField fx:id="iconSizeInput" layoutX="110.0" layoutY="136.0" prefHeight="25.0" prefWidth="39.0" text="32" />
-            <Text fx:id="outImgSizeText" layoutX="114.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="86.13671875" />
+            <Text fx:id="outImgSizeText" layoutX="110.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="86.13671875" />
             <Text layoutX="15.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" text="На выходе" wrappingWidth="76.13671875" />
             <Text fx:id="iconSizeText" layoutX="157.0" layoutY="153.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="86.13671875" />
             <MenuButton fx:id="packMenuButton" layoutX="262.0" layoutY="17.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="102.0" text="Не выбраны" />
